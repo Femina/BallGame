@@ -19,6 +19,8 @@
 		615091AC17414B74005B5C77 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615091AA17414B74005B5C77 /* MainStoryboard_iPhone.storyboard */; };
 		615091AF17414B74005B5C77 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615091AD17414B74005B5C77 /* MainStoryboard_iPad.storyboard */; };
 		615091B217414B74005B5C77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615091B117414B74005B5C77 /* ViewController.m */; };
+		618C3E1D1743C65800091130 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C3E1B1743C65800091130 /* player.png */; };
+		618C3E1E1743C65800091130 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C3E1C1743C65800091130 /* enemy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		615091AE17414B74005B5C77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		615091B017414B74005B5C77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		615091B117414B74005B5C77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		618C3E1B1743C65800091130 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		618C3E1C1743C65800091130 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		6150919817414B74005B5C77 /* BallGameFemina */ = {
 			isa = PBXGroup;
 			children = (
+				618C3E1B1743C65800091130 /* player.png */,
+				618C3E1C1743C65800091130 /* enemy.png */,
 				615091A117414B74005B5C77 /* AppDelegate.h */,
 				615091A217414B74005B5C77 /* AppDelegate.m */,
 				615091AA17414B74005B5C77 /* MainStoryboard_iPhone.storyboard */,
@@ -167,6 +173,8 @@
 				615091A917414B74005B5C77 /* Default-568h@2x.png in Resources */,
 				615091AC17414B74005B5C77 /* MainStoryboard_iPhone.storyboard in Resources */,
 				615091AF17414B74005B5C77 /* MainStoryboard_iPad.storyboard in Resources */,
+				618C3E1D1743C65800091130 /* player.png in Resources */,
+				618C3E1E1743C65800091130 /* enemy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +320,7 @@
 				615091B717414B74005B5C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
